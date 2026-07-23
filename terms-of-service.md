@@ -1,6 +1,6 @@
 # Terms of Service — Stella
 
-**Last updated:** _______________
+**Last updated:** 24/07/2026
 
 These terms are an agreement between you and **Northpath** ("we", "us", "our") covering your use of the Stella mobile application. By creating an account or using Stella, you agree to them. If you do not agree, please do not use Stella.
 
