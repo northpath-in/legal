@@ -1,6 +1,6 @@
 # Privacy Policy — Stella
 
-**Last updated:** _______________
+**Last updated:** 24/07/2026
 
 This policy explains what personal data Stella collects, why we collect it, who we share it with, and the choices you have. We have tried to write it in plain language rather than legal jargon.
 
