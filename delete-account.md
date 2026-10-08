@@ -14,7 +14,7 @@ Your account and all app data are deleted immediately.
 
 ## Delete without the app
 
-If you no longer have the app installed, email **stella.northpath@gmail.com** from the email address or phone number linked to your account, with the subject **"Delete my account"**. We will delete your account within 7 days and confirm by email.
+If you no longer have the app installed, email **stella.northpath@gmail.com** from the email address or phone number linked to your account, with the subject **"Delete my account"**. We will delete your account within 30 days and confirm by email.
 
 ## What is deleted
 
