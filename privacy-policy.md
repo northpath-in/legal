@@ -1,41 +1,48 @@
 # Privacy Policy — Stella
 
-**Last updated:** 24/07/2026
+**Last updated: 09/10/2026**
 
 This policy explains what personal data Stella collects, why we collect it, who we share it with, and the choices you have. We have tried to write it in plain language rather than legal jargon.
 
-Stella is operated by **Northpath** ("we", "us", "our"). If you have questions about anything here, contact details are at the bottom.
+Stella is operated by Northpath ("we", "us", "our"). If you have questions about anything here, contact details are at the bottom.
 
----
+**Stella is a productivity tool, not a medical device; it does not diagnose, treat, or cure any condition.**
 
 ## 1. Who this policy applies to
 
-Stella is intended **only for people aged 18 and over**. We do not knowingly collect personal data from anyone under 18. If we learn that we have collected data from a person under 18, we will delete it.
+Stella is intended only for people aged 18 and over. We do not knowingly collect personal data from anyone under 18. If we learn that we have collected data from a person under 18, we will delete it.
 
 ## 2. What we collect
 
 We collect the following categories of personal data.
 
 **Account information**
+
 - Phone number and/or email address, used to create and sign in to your account.
 
 **Information you give us during use**
+
 - Your check-in answers (your self-reported energy, focus, and task load).
 - The text of tasks you enter.
 - Voice input, when you choose to speak a task instead of typing it.
+- Quick captures you save in Squirrel during a focus session.
 
 **Information about how you use Stella**
+
 - Focus session records: duration, the state you were in, whether the session was completed, and start and end times.
 - Which apps you chose to block during a session, and the number of distractions you captured.
 
 **Device and usage signals**
-- App usage statistics, notification access, and screen on/off events, used to help Stella estimate your current state.
+
+- App usage statistics, notification access, and screen on/off events, used to run the app blocker and to help Stella estimate your current state.
 - These permissions are requested with your consent, and Stella will function without them, with reduced accuracy.
 
 **Technical and diagnostic data**
+
 - Analytics and crash reports, used to understand how Stella performs and to fix problems.
 
 **Subscription status**
+
 - Whether you have an active trial or subscription. Payments are processed by Google Play. We never see or store your card or payment details.
 
 ## 3. Why we collect it
@@ -47,19 +54,20 @@ We use your data only for the purposes below.
 | Account information | To create your account and sign you in |
 | Check-in answers and usage signals | To estimate your current state and suggest a suitable session length |
 | Task text and voice input | To generate step-by-step breakdowns of your tasks |
+| Squirrel quick captures | To hold thoughts you capture during a focus session so you can return to them later |
 | Focus session records | To show you your own history and progress |
 | Analytics and crash data | To fix bugs and improve the app |
 | Subscription status | To manage your trial and access |
 
-We do **not** sell your personal data. We do **not** use your data for advertising, and we do not share it with advertisers or data brokers.
+We do not sell your personal data. We do not use your data for advertising, and we do not share it with advertisers or data brokers.
 
 ## 4. Our legal basis
 
-We process your personal data on the basis of **your consent**, given when you create an account and when you grant individual permissions. You can withdraw consent at any time by deleting your account (see section 8).
+We process your personal data on the basis of your consent, given when you create an account and when you grant individual permissions. You can withdraw consent at any time by deleting your account (see section 8).
 
 ## 5. Voice data
 
-When you use voice input, your audio is sent to a transcription service, converted to text, and then **discarded**. We do not store voice recordings. Only the resulting text is retained, as part of the task you created.
+We don't store your voice recordings. Audio is sent to Groq to be converted to text and discarded immediately after. Only the resulting text is retained, as part of the task you created. When you speak in Hindi, that text is also sent to DeepSeek so your task can be written back in Roman Hinglish.
 
 ## 6. Who we share data with, and transfers outside India
 
@@ -67,18 +75,20 @@ To provide Stella, we share limited data with the following service providers:
 
 | Provider | What they receive | Where processed |
 |---|---|---|
-| Google Firebase (authentication, database, analytics, crash reporting) | Account data, session records, diagnostic data | Data stored in India (asia-south1 region) |
-| DeepSeek | The text of the task you want broken down | Outside India |
-| Groq | Voice audio for transcription, discarded after processing | Outside India |
+| Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics) | Account data, session records, diagnostic data | Data stored in India (asia-south1 region) |
+| DeepSeek (an AI provider) | The text of the task you want broken down, the text of your voice input when you speak in Hindi, the titles of your other unfinished tasks (so it can spot overlaps), and the state you picked in your check-in. It uses these only to create your steps. | Outside India |
+| Groq | Voice audio for transcription, discarded immediately after processing | Outside India |
 | Google Play Billing | Subscription and payment processing | Handled by Google; we receive only subscription status |
 
-**Transfers outside India.** Task text and voice audio are processed by AI providers located outside India, as set out above. **We do not send your name, phone number, email address, user ID, or check-in answers to these providers.** They receive only the content needed to perform the task, without information identifying you.
+**Transfers outside India.** Task text, voice audio and the other content listed above are processed by AI providers located outside India. We do not send your name, phone number, email address, or user ID to Groq or DeepSeek. They receive only the content needed to perform the task, without information identifying you.
 
 ## 7. How long we keep it
 
 We keep your personal data for as long as your account is active.
 
-**When you delete your account, we delete your personal data immediately.** This includes your account details, check-in answers, task text, and focus session records.
+Quick captures in Squirrel are automatically deleted after 24 hours unless you choose to keep them.
+
+When you delete your account, we immediately delete your account and all app data. This includes your account details, check-in answers, task text, Squirrel captures, and focus session records. Anonymous crash and usage statistics collected through Firebase Analytics and Crashlytics may be kept by Google under its own retention policy.
 
 Some limited information may persist briefly in backups or in our service providers' systems before being overwritten, and we may retain records where we are required to by law.
 
@@ -86,11 +96,13 @@ Some limited information may persist briefly in backups or in our service provid
 
 Under the Digital Personal Data Protection Act, 2023, you have the right to:
 
-- **Access** the personal data we hold about you.
-- **Correct** data that is inaccurate or incomplete.
-- **Erase** your personal data.
-- **Nominate** another person to exercise your rights in the event of your death or incapacity.
-- **Complain** to us, and to the Data Protection Board of India if you are not satisfied with our response.
+- Access the personal data we hold about you.
+- Correct data that is inaccurate or incomplete.
+- Erase your personal data.
+- Nominate another person to exercise your rights in the event of your death or incapacity.
+- Complain to us, and to the Data Protection Board of India if you are not satisfied with our response.
+
+To delete your account, open Stella and go to [Settings → Delete account → Delete my account], or email stella.northpath@gmail.com from the email address or phone number linked to your account with the subject "Delete my account".
 
 To exercise any of these rights, use the in-app options or contact our Grievance Officer below. We will respond within the timeframes required by law.
 
@@ -112,4 +124,4 @@ For any question, request, or complaint about your personal data:
 **Email:** stella.northpath@gmail.com
 **Address:** Seven Bungalows, Mumbai — 400061, Maharashtra, India
 
-If you are not satisfied with our response, you may complain to the **Data Protection Board of India**.
+If you are not satisfied with our response, you may complain to the Data Protection Board of India.
