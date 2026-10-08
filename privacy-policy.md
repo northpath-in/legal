@@ -102,7 +102,7 @@ Under the Digital Personal Data Protection Act, 2023, you have the right to:
 - Nominate another person to exercise your rights in the event of your death or incapacity.
 - Complain to us, and to the Data Protection Board of India if you are not satisfied with our response.
 
-To delete your account, open Stella and go to Settings → Delete account → Delete my account, or email stella.northpath@gmail.com from the email address or phone number linked to your account with the subject "Delete my account".
+To delete your account, open Stella and go to Settings → Delete account → Delete my account, or email stella.northpath@gmail.com from the email address or phone number linked to your account with the subject "Delete my account".  More details: [Delete your account](delete-account).
 
 To exercise any of these rights, use the in-app options or contact our Grievance Officer below. We will respond within the timeframes required by law.
 
