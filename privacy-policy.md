@@ -68,6 +68,7 @@ We process your personal data on the basis of your consent, given when you creat
 ## 5. Voice data
 
 We don't store your voice recordings. Audio is sent to Groq to be converted to text and discarded immediately after. Only the resulting text is retained, as part of the task you created. When you speak in Hindi, that text is also sent to DeepSeek so your task can be written back in Roman Hinglish.
+Task text is sent as you typed it, so please avoid adding sensitive personal details such as health, financial or identity information to your tasks.
 
 ## 6. Who we share data with, and transfers outside India
 
@@ -75,12 +76,13 @@ To provide Stella, we share limited data with the following service providers:
 
 | Provider | What they receive | Where processed |
 |---|---|---|
-| Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics) | Account data, session records, diagnostic data | Data stored in India (asia-south1 region) |
+| Google Firebase Cloud Firestore (database) | Account data, task and session records | Stored in India (asia-south1 region) |
+| Google Firebase Authentication, Cloud Functions, Analytics and Crashlytics | Sign-in details, requests handled by our server functions, analytics and crash reports | Outside India (mainly the United States) |
 | DeepSeek (an AI provider) | The text of the task you want broken down, the text of your voice input when you speak in Hindi, the titles of your other unfinished tasks (so it can spot overlaps), and the state you picked in your check-in. It uses these only to create your steps. | Outside India |
 | Groq | Voice audio for transcription, discarded immediately after processing | Outside India |
 | Google Play Billing | Subscription and payment processing | Handled by Google; we receive only subscription status |
 
-**Transfers outside India.** Task text, voice audio and the other content listed above are processed by AI providers located outside India. We do not send your name, phone number, email address, or user ID to Groq or DeepSeek. They receive only the content needed to perform the task, without information identifying you.
+**Transfers outside India.** Your database records are stored in India, but sign-in, our server functions, analytics and crash reporting run on Google's servers outside India (mainly the United States), and task text, voice audio and the other content listed above are processed by AI providers located outside India. We do not send your name, phone number, email address, or user ID to Groq or DeepSeek. They receive only the content needed to perform the task, without information identifying you.
 
 ## 7. How long we keep it
 
@@ -114,7 +116,7 @@ If a personal data breach occurs, we will notify affected users and the Data Pro
 
 ## 10. Changes to this policy
 
-We may update this policy as Stella changes. If we make a significant change, we will notify you in the app. The "last updated" date at the top always reflects the current version.
+We may update this policy as Stella changes.If we make a significant change, we'll update the date above and notify you where required by law. The "last updated" date at the top always reflects the current version.
 
 ## 11. Contact and Grievance Officer
 
