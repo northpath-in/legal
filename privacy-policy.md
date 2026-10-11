@@ -1,6 +1,6 @@
 # Privacy Policy — Stella
 
-**Last updated: 09/10/2026**
+**Last updated: 12/10/2026**
 
 This policy explains what personal data Stella collects, why we collect it, who we share it with, and the choices you have. We have tried to write it in plain language rather than legal jargon.
 
@@ -67,8 +67,7 @@ We process your personal data on the basis of your consent, given when you creat
 
 ## 5. Voice data
 
-We don't store your voice recordings. Audio is sent to Groq to be converted to text and discarded immediately after. Only the resulting text is retained, as part of the task you created. When you speak in Hindi, that text is also sent to DeepSeek so your task can be written back in Roman Hinglish.
-Task text is sent as you typed it, so please avoid adding sensitive personal details such as health, financial or identity information to your tasks.
+We don't store your voice recordings. Audio is sent to Groq to be converted to text and discarded immediately after. Only the resulting text is retained, as part of the task you created. When you speak in Hindi, that text is also sent to DeepSeek so your task can be written back in Roman Hinglish. Task text is sent as you typed it, so please avoid adding sensitive personal details such as health, financial or identity information to your tasks.
 
 ## 6. Who we share data with, and transfers outside India
 
@@ -104,7 +103,7 @@ Under the Digital Personal Data Protection Act, 2023, you have the right to:
 - Nominate another person to exercise your rights in the event of your death or incapacity.
 - Complain to us, and to the Data Protection Board of India if you are not satisfied with our response.
 
-To delete your account, open Stella and go to Settings → Delete account → Delete my account, or email stella.northpath@gmail.com from the email address or phone number linked to your account with the subject "Delete my account".  More details: [Delete your account](delete-account).
+To delete your account, open Stella and go to Settings → Delete account → Delete my account, or email stella.northpath@gmail.com from the email address or phone number linked to your account with the subject "Delete my account". More details: [Delete your account](delete-account).
 
 To exercise any of these rights, use the in-app options or contact our Grievance Officer below. We will respond within the timeframes required by law.
 
@@ -116,7 +115,7 @@ If a personal data breach occurs, we will notify affected users and the Data Pro
 
 ## 10. Changes to this policy
 
-We may update this policy as Stella changes.If we make a significant change, we'll update the date above and notify you where required by law. The "last updated" date at the top always reflects the current version.
+We may update this policy as Stella changes. If we make a significant change, we'll update the date above and notify you where required by law. The "last updated" date at the top always reflects the current version.
 
 ## 11. Contact and Grievance Officer
 
